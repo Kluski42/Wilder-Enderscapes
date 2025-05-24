@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "enderwild:block/stripped_hollowed_murublight_stem_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "enderwild:block/stripped_hollowed_murublight_stem"
+    },
+    "axis=z": {
+      "model": "enderwild:block/stripped_hollowed_murublight_stem_horizontal",
+      "x": 90
+    }
+  }
+}

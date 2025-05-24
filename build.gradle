@@ -56,6 +56,7 @@ loom {
 fabricApi {
     configureDataGeneration {
         client = true
+        modId = "enderwild"
     }
 }
 
@@ -65,31 +66,15 @@ dependencies {
     mappings loom.officialMojangMappings()
     modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
-    // Fabric API. This is technically optional, but you probably want it anyway.
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-
-    // Enderscape
     modImplementation "maven.modrinth:enderscape:$enderscape_version"
-
-    // Wilder Wild
     modImplementation "maven.modrinth:wilder-wild:$wilderwild_version"
 
-    // Frozenlib
     modImplementation "maven.modrinth:FrozenLib:$frozenlib_version"
-
-    // Sodium
     modImplementation "maven.modrinth:sodium:${sodium_version}"
-
-    // Mod Menu
     modCompileOnly("maven.modrinth:modmenu:$modmenu_version")
-
-    // YACL
     modImplementation "dev.isxander:yet-another-config-lib:${project.yacl_version}"
-
-    // Mixson
     modImplementation "com.github.ramixin:mixson-fabric:${mixson_version}"
-
-    // Fabric Language Kotlin
     modImplementation("net.fabricmc:fabric-language-kotlin:${fabric_language_kotlin_version}")
 }
 
