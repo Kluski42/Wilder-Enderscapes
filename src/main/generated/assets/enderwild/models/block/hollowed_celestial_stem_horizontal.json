@@ -3,6 +3,6 @@
   "textures": {
     "end": "enderscape:block/celestial_stem_top",
     "inside": "enderscape:block/stripped_celestial_stem",
-    "side": "enderscape:block/celestial_stem"
+    "side": "enderwild:block/hollowed_celestial_stem"
   }
 }

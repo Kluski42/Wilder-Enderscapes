@@ -3,6 +3,6 @@
   "textures": {
     "end": "enderscape:block/stripped_murublight_stem_top",
     "inside": "enderscape:block/stripped_murublight_stem",
-    "side": "enderscape:block/stripped_murublight_stem"
+    "side": "enderwild:block/stripped_hollowed_murublight_stem"
   }
 }

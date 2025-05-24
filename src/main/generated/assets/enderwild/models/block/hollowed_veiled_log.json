@@ -3,6 +3,6 @@
   "textures": {
     "end": "enderscape:block/veiled_log_top",
     "inside": "enderscape:block/stripped_veiled_log",
-    "side": "enderscape:block/veiled_log"
+    "side": "enderwild:block/hollowed_veiled_log"
   }
 }

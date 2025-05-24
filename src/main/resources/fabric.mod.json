@@ -3,12 +3,16 @@
   "id": "enderwild",
   "version": "${version}",
   "name": "Ender Wild",
-  "description": "Adds consistency between Wilder Wild and Enderscape. Currently, it only adds hollowed log variants to the enderscape logs.",
+  "description": "Adds consistency between Wilder Wild and Enderscape.",
   "authors": [
     "Wet Noodle"
   ],
+  "contributors": [
+    "lunarbunten",
+    "hivye"
+  ],
   "contact": {
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
   },
   "license": "CC0-1.0",
   "icon": "assets/enderwild/icon.png",
