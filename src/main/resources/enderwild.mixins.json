@@ -3,8 +3,8 @@
 	"package": "net.wetnoodle.enderwild.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
+		"enderscape.feature.generator.LargeCelestialChanterelleGeneratorMixin",
 		"wilderwild.block.termite.RotatedPillarBlockMixin",
-		"enderscape.feature.generator.LargeCelestialChanterelleGeneratorMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

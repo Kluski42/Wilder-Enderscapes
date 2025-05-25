@@ -23,7 +23,7 @@ public class RotatedPillarBlockMixin {
     private static final boolean WILDERWILD$TERMITE_NATURAL_BLOCKS_ON_BOOT = WWBlockConfig.get().termite.onlyEatNaturalBlocks;
 
     @Unique
-    private static final List<String> ENDERWILD$TERMITE_EDIBLE = Arrays.asList(new String[]{"block.enderscape.celestial_stem"});
+    private static final List<String> ENDERWILD$TERMITE_EDIBLE = Arrays.asList(new String[]{"block.enderscape.celestial_stem", "block.enderscape.stripped_celestial_stem"});
 
     @Inject(method = "createBlockStateDefinition", at = @At("TAIL"))
     private void addTermiteEdibleState(StateDefinition.Builder<Block, BlockState> builder, CallbackInfo info) {

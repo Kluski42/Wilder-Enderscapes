@@ -1,0 +1,7 @@
+{
+  "copy_blockstate_properties": true,
+  "edible_blocks": "enderscape:celestial_hyphae",
+  "natural_termite_usable": true,
+  "output_block": "enderscape:stripped_celestial_hyphae",
+  "player_placed_termite_usable": true
+}

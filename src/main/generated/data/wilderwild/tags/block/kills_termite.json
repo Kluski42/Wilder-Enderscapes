@@ -1,0 +1,25 @@
+{
+  "values": [
+    {
+      "id": "#enderscape:murublight_wood",
+      "required": false
+    },
+    {
+      "id": "#enderscape:murublight_brick_blocks",
+      "required": false
+    },
+    "enderscape:corrupt_overgrowth",
+    "enderscape:corrupt_growth",
+    "enderscape:corrupt_path_block",
+    "enderscape:murublight_chanterelle",
+    "enderscape:murublight_cap",
+    {
+      "id": "#enderscape:veiled_wood",
+      "required": false
+    },
+    "enderscape:veiled_leaves",
+    "enderscape:veiled_leaf_pile",
+    "enderscape:veiled_sapling",
+    "enderscape:veiled_end_stone"
+  ]
+}

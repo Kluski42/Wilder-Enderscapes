@@ -1,0 +1,7 @@
+{
+  "copy_blockstate_properties": true,
+  "edible_blocks": "enderwild:hollowed_celestial_stem",
+  "natural_termite_usable": false,
+  "output_block": "enderwild:stripped_hollowed_celestial_stem",
+  "player_placed_termite_usable": true
+}
