@@ -81,11 +81,13 @@ public final class EnderWildBlockTagProvider extends FabricTagProvider.BlockTagP
                 .add(MURUBLIGHT_CHANTERELLE)
                 .add(MURUBLIGHT_CAP)
                 .add(MURUBLIGHT_SHELF)
+                .add(MURUBLIGHT_TRAPDOOR)
 
                 .addOptionalTag(EnderscapeBlockTags.VEILED_WOOD_TAG)
                 .add(VEILED_LEAVES)
                 .add(VEILED_LEAF_PILE)
                 .add(VEILED_SAPLING)
-                .add(VEILED_END_STONE);
+                .add(VEILED_END_STONE)
+                .add(VEILED_TRAPDOOR);
     }
 }
