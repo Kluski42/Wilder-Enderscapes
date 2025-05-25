@@ -14,6 +14,7 @@
     "enderscape:murublight_chanterelle",
     "enderscape:murublight_cap",
     "enderscape:murublight_shelf",
+    "enderscape:murublight_trapdoor",
     {
       "id": "#enderscape:veiled_wood",
       "required": false
@@ -21,6 +22,7 @@
     "enderscape:veiled_leaves",
     "enderscape:veiled_leaf_pile",
     "enderscape:veiled_sapling",
-    "enderscape:veiled_end_stone"
+    "enderscape:veiled_end_stone",
+    "enderscape:veiled_trapdoor"
   ]
 }
