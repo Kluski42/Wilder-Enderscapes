@@ -3,6 +3,7 @@ package net.wetnoodle.enderwild;
 import net.fabricmc.api.ModInitializer;
 
 import net.wetnoodle.enderwild.registry.EnderWildBlocks;
+import net.wetnoodle.enderwild.registry.EnderWildInventorySorting;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -15,5 +16,6 @@ public class EnderWild implements ModInitializer {
     @Override
     public void onInitialize() {
         EnderWildBlocks.registerBlockPorperties();
+        EnderWildInventorySorting.init();
     }
 }

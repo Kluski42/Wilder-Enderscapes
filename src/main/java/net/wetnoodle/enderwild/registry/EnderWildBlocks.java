@@ -1,8 +1,6 @@
 package net.wetnoodle.enderwild.registry;
 
-import net.bunten.enderscape.Enderscape;
 import net.bunten.enderscape.registry.EnderscapeBlocks;
-import net.bunten.enderscape.registry.EnderscapeItems;
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.fabricmc.fabric.api.registry.FuelRegistryEvents;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
@@ -13,7 +11,6 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.MapColor;
 import net.wetnoodle.enderwild.EnderWildConstants;
@@ -85,7 +82,6 @@ public class EnderWildBlocks {
     }
 
     private static void registerFuels() {
-        EnderWildConstants.logWithModId("Registering Fuels for");
         FuelRegistryEvents.BUILD.register((builder, context) -> {
                     builder.add(HOLLOWED_CELESTIAL_STEM, 300);
                     builder.add(STRIPPED_HOLLOWED_CELESTIAL_STEM, 300);

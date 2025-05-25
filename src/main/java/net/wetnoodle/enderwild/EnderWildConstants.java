@@ -7,6 +7,7 @@ import org.slf4j.LoggerFactory;
 
 public class EnderWildConstants {
     public static final String MOD_ID = "enderwild";
+    public static final String MOD_NAME = "Wilder Enderscapes";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 
@@ -33,6 +34,16 @@ public class EnderWildConstants {
     public static void logWithModId(String message, boolean shouldLog) {
         if (shouldLog) {
             logWithModId(message);
+        }
+    }
+
+    public static void logWithModName(String message) {
+        LOGGER.info("{} " + MOD_NAME, message);
+    }
+
+    public static void logWithModName(String message, boolean shouldLog) {
+        if (shouldLog) {
+            logWithModName(message);
         }
     }
 
