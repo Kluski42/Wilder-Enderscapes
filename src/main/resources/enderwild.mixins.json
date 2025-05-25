@@ -4,7 +4,8 @@
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 		"enderscape.feature.generator.LargeCelestialChanterelleGeneratorMixin",
-		"wilderwild.block.termite.RotatedPillarBlockMixin",
+		"wilderwild.block.termite.BlockMixin",
+		"wilderwild.block.termite.RotatedPillarBlockMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

@@ -10,7 +10,12 @@ import org.spongepowered.asm.mixin.injection.At;
 @Mixin(LargeCelestialChanterelleGenerator.class)
 public class LargeCelestialChanterelleGeneratorMixin {
     @ModifyExpressionValue(method = "generate", at = @At(value = "INVOKE", target = "Lnet/minecraft/world/level/block/Block;defaultBlockState()Lnet/minecraft/world/level/block/state/BlockState;", ordinal = 2))
-    private static BlockState enderWild$setTermiteEdible(BlockState state) {
+    private static BlockState enderWild$generateSetTermiteEdible(BlockState state) {
+        return TermiteMoundBlock.setTermiteEdibleIfPossible(state);
+    }
+
+    @ModifyExpressionValue(method = "generateCap", at = @At(value = "INVOKE", target = "Lnet/minecraft/world/level/block/Block;defaultBlockState()Lnet/minecraft/world/level/block/state/BlockState;"))
+    private static BlockState enderWild$generateCapSetTermiteEdible(BlockState state) {
         return TermiteMoundBlock.setTermiteEdibleIfPossible(state);
     }
 }

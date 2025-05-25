@@ -6,6 +6,7 @@ import net.frozenblock.wilderwild.registry.WilderWildRegistries;
 import net.minecraft.core.RegistrySetBuilder;
 import net.wetnoodle.enderwild.block.termite.EnderWildTermiteBlockBehaviors;
 import net.wetnoodle.enderwild.datagen.EnderWildRegistryProvider;
+import net.wetnoodle.enderwild.datagen.loot.EnderWildBlockLootProvider;
 import net.wetnoodle.enderwild.datagen.model.EnderWildModelProvider;
 import net.wetnoodle.enderwild.datagen.tag.EnderWildBlockTagProvider;
 import org.jetbrains.annotations.Nullable;
@@ -19,6 +20,7 @@ public class EnderWildDataGenerator implements DataGeneratorEntrypoint {
         pack.addProvider(EnderWildRegistryProvider::new);
 
         pack.addProvider(EnderWildBlockTagProvider::new);
+        pack.addProvider(EnderWildBlockLootProvider::new);
 
         // ASSETS
 

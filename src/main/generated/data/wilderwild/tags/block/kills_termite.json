@@ -13,6 +13,7 @@
     "enderscape:corrupt_path_block",
     "enderscape:murublight_chanterelle",
     "enderscape:murublight_cap",
+    "enderscape:murublight_shelf",
     {
       "id": "#enderscape:veiled_wood",
       "required": false
